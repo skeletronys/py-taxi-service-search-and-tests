@@ -99,4 +99,3 @@ class TestDrivers(TestCase):
             search_results.first().username,
             "TestTest"
         )
-
