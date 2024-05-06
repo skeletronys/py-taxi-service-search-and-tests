@@ -62,7 +62,8 @@ class TestCars(TestCase):
         )
         self.assertEqual(
             search_results.count(),
-            1)
+            1
+        )
         self.assertEqual(
             search_results.first().model,
             "Test"
